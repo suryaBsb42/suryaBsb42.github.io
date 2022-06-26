@@ -224,3 +224,11 @@ nav a {
 	padding: 5px;
 	margin-bottom: 2px;
 }
+header .judul{
+	font-size: 15pt;
+}
+header img{
+	float: left;
+	padding-left: 5%;
+}
+)
