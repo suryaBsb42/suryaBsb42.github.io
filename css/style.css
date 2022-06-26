@@ -194,11 +194,15 @@ footer {
 		float: none;
 	}
 	.box .col-4 {
-		width:100%;
+		width:0 auto;
 		float: none;
 		margin-bottom: 20px;
 	}
-}
+	.box2 .col-4 {
+		width:0 auto;
+		float: none;
+		margin-bottom: 20px;
+	}
 nav a {
 	font-size: 18px;
 	font-weight: 400;
