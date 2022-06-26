@@ -60,7 +60,7 @@ header ul li a:hover {
 }
 .banner {
 	height: 60vh;
-	background-image: url('../img/banner.jpeg');
+	background-image: url('../img/banner71.jpg');
 	background-size: cover;
 	position: relative;
 	display: flex;
@@ -180,6 +180,33 @@ footer {
 	background-color: #148F77;
 	color: #fff;
 }
+{
+	box-sizing: border-box;
+  }
+  .container1 {
+	width: 900px;
+	border: 1px solid black;
+	margin: 0 auto;
+  }
+  .flex-column {
+	display: flex;
+	flex-direction: column;
+  }
+  .flex-row {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+  }
+  .box1 {
+	flex-grow: 1;
+	background-color: #fff;
+	border: 2px solid black;
+	padding: 40px;
+	text-align: center;
+	color: white;
+	font-size: 4.5em;
+  }
+
 @keyframes puterin {
 	100% {
 		transform: rotate(360deg);
@@ -245,5 +272,12 @@ header .menu{
 	font-size: 10pt;
 }
 .menu2 {
-	font-size: 5pt;
+	font-size: 5pt;	
+}
+.container1 {
+	width: 90%;
+	border: 0ex;
+}
+.box1{
+	padding: 0px;
 }
