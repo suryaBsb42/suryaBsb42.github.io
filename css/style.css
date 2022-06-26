@@ -186,7 +186,7 @@ footer {
 		width:90%;
 	}
 	header h1 {
-		text-align: center;
+		text: align 15px;
 		float: none;
 	}
 	header ul {
@@ -225,7 +225,7 @@ nav a {
 	margin-bottom: 2px;
 }
 header .judul{
-	font-size: 15pt;
+	font-size: 12pt;
 }
 header img{
 	float: left;
