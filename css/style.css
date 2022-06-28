@@ -21,7 +21,7 @@ a {
 	margin-right: 10px;
 }
 .container {
-	width:80%;
+	width:100%;
 	margin:0 auto;
 }
 .container:after {
@@ -63,7 +63,7 @@ header ul li a:hover {
 }
 .banner {
 	height: 60vh;
-	background-image: url('../img/foto7.jpg');
+	background-image: url('../img/banner71.jpg');
 	background-size: cover;
 	position: relative;
 	display: flex;
@@ -251,7 +251,7 @@ footer {
 	}
 	.box .foto .img{
 		width: 90%;
-	}			
+	}
 	.box2 .col-4 {
 		font-size: 10px;
 		width:100%;
@@ -309,12 +309,14 @@ section .img {
 	float: left;
 	padding: 5%;
 }
-.customer {
+section .abot {
 	width: 90%;
 	font-size: 10px;
 	float: left;
 	margin: 30px;
+	background: #fff ;
   }
+
   footer {
 	font-size: 10px;
   }
@@ -324,18 +326,23 @@ section .img {
   .customer p {
 	font-size: 10px;
   }
+  .customer ol {
+	font-size: 10px;
+  }
   .col-4 p {
 	font-size: 10px;
   }
   .banner {
 	height: 20vh;
-	background-image: url('../img/foto7.jpg');
+	background-image: url('../img/banner71.jpg');
 	background-size: cover;
 	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.galery {
+section .galery {
+	size: 0ch;
 	width: 100%;
 }
+
