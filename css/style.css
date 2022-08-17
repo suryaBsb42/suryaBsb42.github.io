@@ -16,12 +16,13 @@ a {
 	background-color: #148F77;
 }
 .medsos ul li {
+	font-size: small;
 	display: inline-block;
 	color: #fff;
 	margin-right: 10px;
 }
 .container {
-	width:100%;
+	width:95%;
 	margin:0 auto;
 }
 .container:after {
@@ -32,7 +33,11 @@ a {
 header h1 {
 	float: left;
 	padding:15px 0;
-	color: #148F77;
+	color: #f81313;
+}
+header h6{
+	font: small-caption ;
+	color: black;
 }
 header img {
 	float: left;
@@ -69,6 +74,7 @@ header ul li a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 .banner:after {
 	content:'';
@@ -105,6 +111,12 @@ section h3 {
 	line-height: 25px;
 	margin-bottom: 20px;
 	text-align: center;
+}
+.about img {
+	width: 85em;
+	height: 30em;
+	padding-left: 5px;
+	margin: 5px;
 }
 .service {
 	background-color: #f9f9f9;
@@ -216,12 +228,61 @@ footer {
 	float: auto;
 	margin: 20px;
   }
-
-@keyframes puterin {
-	100% {
-		transform: rotate(360deg);
-	}
+  small {
+	color: #db1313;
+  }
+  
+  ol {
+	text-align: left;
+	padding-left: 10%;
+  }
+  table th {
+	text-align: center;
+	color: #f81313;
+  }
+  
+  
+  body .galery {
+	width: 95%;
+	margin: 20px;
+	border: 2px solid #333;
+  }
+  .galery img {
+	width: 26%;
+	text-align: center;
+	border: 2px solid #333;
+	padding: 10px;
+	margin: 35px;
+  }
+  
+  body .video {
+	width: 95%;
+	margin: 20px;
+	border: 2px solid #333;
+  }
+  .video video {
+	width: 26%;
+	text-align: center;
+	border: 2px solid #333;
+	padding: 10px;
+	margin: 35px;
+	
+  }
+  .menu3 ul li {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: small;
+	display: inline-block;
 }
+.menu3 ul li a {
+	padding:10px 20px;
+	display: inline-block;
+}
+.menu3 ul li a:hover {
+	background-color: #148F77;
+	color: #fff;
+}
+
+
 @media screen and (max-width: 768px){
 	.container {
 		width:90%;
@@ -234,15 +295,20 @@ footer {
 		text-align: center;
 		float: none;
 	}
+	
 	.box .col-4 {
-		width:33%;
+		width: 32%;
 		padding:20px;
 		box-sizing: border-box;
 		text-align: center;
 		font-size: 10px;
 		float: left;
 	}
-	
+	.box .col-4 .img{
+		width: 32%;
+		padding-left: 1em;
+
+	}
 	section h3 {
 		font-size: 15px;
 	}
@@ -272,12 +338,6 @@ nav a {
  .center {
 	margin: 0 auto;
 }
-.kotak {
-	width: 70%;
-	border: 4px solid darkblue;
-	padding: 5px;
-	margin-bottom: 2px;
-}
 header .judul{
 	font-size: 13pt;
 }
@@ -289,13 +349,17 @@ header .menu{
 	font-size: 7pt;
 }
 .medsos{
-	font-size: 7pt;
+	font-size: 2pt;
 }
 .tex {
 	font-size: 10pt;
 }
 .menu2 {
-	font-size: 5pt;	
+	font-size: 10pt;	
+}
+.menu3 ul li a {
+	padding:5px 10px;
+	display: inline-block;
 }
 .container1 {
 	width: 90%;
@@ -345,4 +409,48 @@ section .galery {
 	size: 0ch;
 	width: 100%;
 }
-
+header strong {
+	font-size: 6pt;
+}
+.about img {
+	width: 24em;
+	height: 10em;
+	padding-left: 0%;
+	padding-right: 2%;
+	margin: 5px;
+}
+table tr {
+	width: 10em;
+	font-size: 10pt;
+}
+iframe {
+	width: 400px;
+	height: 200px;
+}
+body .galery {
+	width: 95%;
+	margin: 10px;
+	border: 2px solid #333;
+  }
+  .galery img {
+	width: 25%;
+	text-align: center;
+	border: 2px solid #333;
+	padding: 5px;
+	margin: 10px;
+  }
+  body .video {
+	width: 95%;
+	margin: 10px;
+	border: 2px solid #333;
+  }
+  .video video {
+	width: 25%;
+	text-align: center;
+	border: 2px solid #333;
+	padding: 2px;
+	margin: 10px;
+	
+  }
+}
+  
