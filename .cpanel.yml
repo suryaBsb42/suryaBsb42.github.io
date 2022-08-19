@@ -7,6 +7,6 @@ deployment:
     - /bin/cp galery.html $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp service.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
     
