@@ -141,6 +141,7 @@ section h3 {
 	text-align: center;
 	float: left;
 }
+
 .box .foto {
 	width:100%;
 	padding:20px;
@@ -193,9 +194,7 @@ footer {
 	background-color: #148F77;
 	color: #fff;
 }
-{
-	box-sizing: border-box;
-  }
+
   .container1 {
 	width: 900px;
 	border: 1px solid black;
@@ -226,6 +225,24 @@ footer {
 	float: auto;
 	margin: 20px;
   }
+  .perizinan {
+	width: 95%;
+	float: auto;
+	margin: 20px;
+  }
+  .perizinan th{
+	background-color: #fff;
+  }
+  .produk {
+	width: 97%;
+	float: auto;
+	margin: 5px;
+  }
+  .customer {
+	width: 97%;
+	float: auto;
+	margin: 5px;
+  }
   small {
 	color: #db1313;
   }
@@ -235,20 +252,30 @@ footer {
 	padding-left: 10%;
   }
   table th {
+	background-color: rgba(82, 79, 79, 0.795);
 	text-align: center;
-	color: #f81313;
   }
-  
+  .kontak1 th {
+	text-align: left;
+  }
+  .kontak2 th {
+	text-align: left;
+	
+  }
+  .kontak3 th {
+	text-align: left;
+	
+  }
   
   body .galery {
 	width: 95%;
 	margin: 20px;
-	border: 2px solid #333;
+	border: 2px solid #e45a0a;
   }
   .galery img {
 	width: 26%;
 	text-align: center;
-	border: 2px solid #333;
+	border: 2px solid #e45a0a;
 	padding: 10px;
 	margin: 35px;
   }
@@ -256,12 +283,12 @@ footer {
   body .video {
 	width: 95%;
 	margin: 20px;
-	border: 2px solid #333;
+	border: 2px solid #4ee717;
   }
   .video video {
 	width: 26%;
 	text-align: center;
-	border: 2px solid #333;
+	border: 2px solid #4ee717;
 	padding: 10px;
 	margin: 31px;
 	
@@ -279,13 +306,20 @@ footer {
 	background-color: #148F77;
 	color: #fff;
 }
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+ }
+ 
 
 @media screen and (max-width: 768px){
 	.container {
 		width:90%;
 	}
 	header h1 {
-		text: align 15px;
+		flex: align 15px;
 		float: none;
 	}
 	header ul {
@@ -298,11 +332,11 @@ footer {
 		padding:20px;
 		box-sizing: border-box;
 		text-align: center;
-		font-size: 10px;
+		font-size: 9px;
 		float: left;
 	}
 	.box .col-4 .img{
-		width: 32%;
+		width: 28%;
 		padding-left: 1em;
 
 	}
@@ -310,7 +344,7 @@ footer {
 		font-size: 15px;
 	}
 	.box .col-4 .img {
-		width: 60px;
+		width: 50px;
 	}
 	.box .foto .img{
 		width: 90%;
@@ -371,13 +405,13 @@ header .menu{
 
 section .img {
 	float: left;
-	padding: 5%;
+	padding: 2pt;
 }
-section .abot {
+section .about {
 	width: 90%;
 	font-size: 10px;
 	float: left;
-	margin: 30px;
+	margin: auto;
 	background: #fff ;
   }
 
@@ -413,44 +447,75 @@ header strong {
 	font-size: 6pt;
 }
 .about img {
-	width: 24em;
+	width: 20em;
 	height: 10em;
 	padding-left: 0%;
 	padding-right: 2%;
 	margin: 5px;
 }
 table tr {
-	width: 10em;
-	font-size: 10pt;
+	width: 6em;
+	font-size: 8pt;
 }
+
+
 iframe {
-	width: 400px;
+	width: 320px;
 	height: 200px;
 }
 body .galery {
 	width: 95%;
 	margin: 10px;
-	border: 2px solid #333;
+	border: 2px solid #e45a0a;
   }
   .galery img {
 	width: 25%;
 	text-align: center;
-	border: 2px solid #333;
-	padding: 5px;
-	margin: 10px;
+	border: 1px solid #e45a0a;
+	padding: 3px;
+	margin: 9px;
   }
   body .video {
 	width: 95%;
 	margin: 10px;
-	border: 2px solid #333;
+	border: 2px solid #4ee717;
   }
   .video video {
 	width: 25%;
 	text-align: center;
-	border: 2px solid #333;
+	border: 1px solid #4ee717;
 	padding: 2px;
-	margin: 10px;
-	
+	margin: 9px;
   }
+  
+.menu3 ul li a {
+	font-size: 8pt;
+	padding:2px 5px;
+	display: inline-block;
 }
+
+.customer h2{
+	font-size: 9pt;
+}
+}
+table th {
+  text-align: center;
+}
+.kontak1 th tr {
+	width: 6em;
+	font-size: 10pt;
+  text-align: left;
+}
+.kontak2 th tr {
+	font-size: 10pt;
+  text-align: left;
+  color: #f81313;
+}
+.kontak3 th tr {
+	font-size: 10pt;
+  text-align: left;
+  color: blue;
+}
+
+
   
