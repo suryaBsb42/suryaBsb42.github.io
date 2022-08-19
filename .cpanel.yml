@@ -9,4 +9,4 @@ deployment:
     - /bin/cp service.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
+    
