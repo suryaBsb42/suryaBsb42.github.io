@@ -288,11 +288,11 @@ footer {
 	border: 2px solid #4ee717;
   }
   .video video {
-	width: 26%;
+	width: 32%;
 	text-align: center;
 	border: 2px solid #eee;
-	padding: 10px;
-	margin: 31px;
+	padding: 1px;
+	margin: 1px;
 	
   }
   .menu3 ul li {
