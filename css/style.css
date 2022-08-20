@@ -1,7 +1,10 @@
 * {
 	padding:0;
 	margin:0;
-	font-family: sans-serif;
+	font-family: 'Quicksand',sans-serif;
+}
+main {
+	padding: 20px;
 }
 a {
 	color: inherit;
@@ -220,28 +223,27 @@ footer {
 	font-size: 4.5em;
   }
   
-  .customer {
-	width: 90%;
-	float: auto;
-	margin: 20px;
-  }
+  
   .perizinan {
-	width: 95%;
+	width: 100%;
 	float: auto;
-	margin: 20px;
+	padding: 0%;
+	margin: 0%;
   }
   .perizinan th{
 	background-color: #fff;
   }
   .produk {
-	width: 97%;
+	width: 100%;
 	float: auto;
-	margin: 5px;
+	padding: 0%;
+	margin: 0%;
   }
   .customer {
-	width: 97%;
+	width: 100%;
 	float: auto;
-	margin: 5px;
+	padding: 0%;
+	margin: 0%;
   }
   small {
 	color: #db1313;
@@ -268,16 +270,16 @@ footer {
   }
   
   body .galery {
-	width: 95%;
+	width: 96%;
 	margin: 20px;
 	border: 2px solid #e45a0a;
   }
   .galery img {
-	width: 26%;
+	width: 32%;
 	text-align: center;
-	border: 2px solid #e45a0a;
-	padding: 10px;
-	margin: 35px;
+	border: 2px solid #eee;
+	padding: 1px;
+	margin: 1px;
   }
   
   body .video {
@@ -288,7 +290,7 @@ footer {
   .video video {
 	width: 26%;
 	text-align: center;
-	border: 2px solid #4ee717;
+	border: 2px solid #eee;
 	padding: 10px;
 	margin: 31px;
 	
@@ -313,8 +315,7 @@ footer {
 	margin-top: 20px;
  }
  
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1000px){
 	.container {
 		width:90%;
 	}
@@ -453,6 +454,11 @@ header strong {
 	padding-right: 2%;
 	margin: 5px;
 }
+.about .ft{
+	width: 22em;
+	height: 10em;
+	
+}
 table tr {
 	width: 6em;
 	font-size: 8pt;
@@ -460,7 +466,7 @@ table tr {
 
 
 iframe {
-	width: 320px;
+	width: 330px;
 	height: 200px;
 }
 body .galery {
@@ -469,11 +475,11 @@ body .galery {
 	border: 2px solid #e45a0a;
   }
   .galery img {
-	width: 25%;
+	width: 31%;
 	text-align: center;
-	border: 1px solid #e45a0a;
-	padding: 3px;
-	margin: 9px;
+	border: 1px solid #eee;
+	padding: 1px;
+	margin: 1px;
   }
   body .video {
 	width: 95%;
@@ -481,17 +487,20 @@ body .galery {
 	border: 2px solid #4ee717;
   }
   .video video {
-	width: 25%;
+	width: 30%;
 	text-align: center;
-	border: 1px solid #4ee717;
-	padding: 2px;
-	margin: 9px;
+	border: 1px solid #eee;
+	padding: 1px;
+	margin: 1px;
   }
   
 .menu3 ul li a {
 	font-size: 8pt;
 	padding:2px 5px;
 	display: inline-block;
+}
+.produk h2{
+	font-size: 9pt;
 }
 
 .customer h2{
@@ -516,6 +525,8 @@ table th {
   text-align: left;
   color: blue;
 }
+
+
 
 
   
